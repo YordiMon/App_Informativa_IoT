@@ -2,4 +2,79 @@
     <string name="app_name">InfoIoT</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="arduino_uno_name">Arduino Uno</string>
+    <string name="arduino_uno_description">Basic development board. Arduino Uno is a development board that features an ATmega328P microcontroller. It is ideal for basic electronics and programming projects.</string>
+
+    <!-- Arduino Mega -->
+    <string name="arduino_mega_name">Arduino Mega</string>
+    <string name="arduino_mega_description">Development board with more ports and memory. Arduino Mega is a development board with an ATmega2560 microcontroller. It offers more ports and memory than Arduino Uno, making it suitable for more complex projects.</string>
+
+    <!-- Arduino Nano -->
+    <string name="arduino_nano_name">Arduino Nano</string>
+    <string name="arduino_nano_description">Small board with reduced size. Arduino Nano is a compact version of Arduino Uno. It has the same ATmega328P microcontroller but in a smaller form factor, making it ideal for projects with limited space.</string>
+
+    <!-- Arduino Leonardo -->
+    <string name="arduino_leonardo_name">Arduino Leonardo</string>
+    <string name="arduino_leonardo_description">Board with ATmega32u4 chip and native USB. Arduino Leonardo is a development board that uses the ATmega32u4 microcontroller. It stands out for having native USB support, simplifying communication with the computer and other devices.</string>
+
+    <!-- Arduino Due -->
+    <string name="arduino_due_name">Arduino Due</string>
+    <string name="arduino_due_description">Board with 32-bit ARM processor. Arduino Due is a development board that uses a 32-bit ARM Cortex-M3 microcontroller. It offers superior performance and is ideal for applications that require more processing power.</string>
+
+    <!-- Arduino Pro Mini -->
+    <string name="arduino_pro_mini_name">Arduino Pro Mini</string>
+    <string name="arduino_pro_mini_description">Compact board designed for permanent projects. Arduino Pro Mini is a compact version of Arduino Uno. It is designed for permanent projects where size is critical and an integrated USB port is not needed.</string>
+
+    <!-- Arduino Pro Micro -->
+    <string name="arduino_pro_micro_name">Arduino Pro Micro</string>
+    <string name="arduino_pro_micro_description">Compact board with ATmega32u4 chip. Arduino Pro Micro is similar to Arduino Leonardo but in a smaller form factor. It uses the same ATmega32u4 microcontroller and offers native USB for easy programming and communication.</string>
+
+    <!-- Arduino MKR1000 -->
+    <string name="arduino_mkr1000_name">Arduino MKR1000</string>
+    <string name="arduino_mkr1000_description">Board with WiFi connectivity. Arduino MKR1000 is a development board that offers integrated WiFi connectivity. It is ideal for IoT projects that require wireless internet connection.</string>
+
+    <!-- Arduino MKR Zero -->
+    <string name="arduino_mkr_zero_name">Arduino MKR Zero</string>
+    <string name="arduino_mkr_zero_description">Board with 32-bit SAMD21 processor. Arduino MKR Zero uses a 32-bit SAMD21 microcontroller. It offers powerful and energy-efficient performance, making it ideal for applications that require low power consumption.</string>
+
+    <!-- Arduino MKR FOX 1200 -->
+    <string name="arduino_mkr_fox_1200_name">Arduino MKR FOX 1200</string>
+    <string name="arduino_mkr_fox_1200_description">Board with Sigfox connectivity. Arduino MKR FOX 1200 is a development board that offers integrated Sigfox connectivity. It is ideal for IoT projects that require long battery life and long-range connection.</string>
+
+    <!-- Arduino MKR WAN 1300 -->
+    <string name="arduino_mkr_wan_1300_name">Arduino MKR WAN 1300</string>
+    <string name="arduino_mkr_wan_1300_description">Board with LoRa connectivity. Arduino MKR WAN 1300 is a development board that offers integrated LoRa connectivity. It is ideal for IoT projects that require long-range connection and low power consumption.</string>
+
+    <!-- Arduino MKR GSM 1400 -->
+    <string name="arduino_mkr_gsm_1400_name">Arduino MKR GSM 1400</string>
+    <string name="arduino_mkr_gsm_1400_description">Board with GSM connectivity. Arduino MKR GSM 1400 is a development board that offers integrated GSM connectivity. It is ideal for IoT projects that require cellular communication to send and receive data.</string>
+
+    <!-- Arduino MKR NB 1500 -->
+    <string name="arduino_mkr_nb_1500_name">Arduino MKR NB 1500</string>
+    <string name="arduino_mkr_nb_1500_description">Board with NB-IoT connectivity. Arduino MKR NB 1500 is a development board that offers integrated NB-IoT connectivity. It is ideal for IoT projects that require low power consumption and long-range connection.</string>
+
+    <!-- Arduino MKR VIDOR 4000 -->
+    <string name="arduino_mkr_vidor_4000_name">Arduino MKR VIDOR 4000</string>
+    <string name="arduino_mkr_vidor_4000_description">Board with integrated FPGA. Arduino MKR VIDOR 4000 is a development board that includes an integrated FPGA. This allows for greater flexibility and processing capability for advanced projects.</string>
+
+    <!-- Arduino Nano 33 IoT -->
+    <string name="arduino_nano_33_iot_name">Arduino Nano 33 IoT</string>
+    <string name="arduino_nano_33_iot_description">Board with WiFi and Bluetooth connectivity. Arduino Nano 33 IoT is a development board that offers integrated WiFi and Bluetooth connectivity. It is ideal for IoT projects that require wireless communication and low power consumption.</string>
+
+    <!-- Arduino Nano 33 BLE -->
+    <string name="arduino_nano_33_ble_name">Arduino Nano 33 BLE</string>
+    <string name="arduino_nano_33_ble_description">Board with low-energy Bluetooth connectivity. Arduino Nano 33 BLE is a development board that offers integrated low-energy Bluetooth connectivity. It is ideal for projects that require low-energy wireless communication.</string>
+
+    <!-- Arduino Nano 33 BLE Sense -->
+    <string name="arduino_nano_33_ble_sense_name">Arduino Nano 33 BLE Sense</string>
+    <string name="arduino_nano_33_ble_sense_description">Board with integrated sensors. Arduino Nano 33 BLE Sense is a development board that includes integrated sensors such as accelerometer, gyroscope, temperature, humidity, and pressure. It is ideal for projects that require motion and environmental detection.</string>
+
+    <!-- Arduino Nano Every -->
+    <string name="arduino_nano_every_name">Arduino Nano Every</string>
+    <string name="arduino_nano_every_description">Updated version of Arduino Nano. Arduino Nano Every is an updated version of Arduino Nano with an ATmega4809 microcontroller. It offers improved performance and is compatible with existing Arduino Nano libraries and projects.</string>
+
+    <!-- Arduino Nano RP2040 Connect -->
+    <string name="arduino_nano_rp2040_connect_name">Arduino Nano RP2040 Connect</string>
+    <string name="arduino_nano_rp2040_connect_description">Board based on the RP2040 chip from Raspberry Pi. Arduino Nano RP2040 Connect is a development board that uses the RP2040 chip from Raspberry Pi. It offers powerful performance and is ideal for projects that require advanced processing capability.</string>
 </resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">InfoIoT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="arduino_uno_name">Arduino Uno</string>
+<string name="arduino_uno_description">Placa de desarrollo básica. Arduino Uno es una placa de desarrollo que cuenta con un microcontrolador ATmega328P. Es ideal para proyectos de electrónica y programación básicos.</string>
+
+<string name="arduino_mega_name">Arduino Mega</string>
+<string name="arduino_mega_description">Placa de desarrollo con más puertos y memoria. Arduino Mega es una placa de desarrollo con un microcontrolador ATmega2560. Ofrece más puertos y memoria que Arduino Uno, lo que la hace adecuada para proyectos más complejos.</string>
+
+<string name="arduino_nano_name">Arduino Nano</string>
+<string name="arduino_nano_description">Placa pequeña con tamaño reducido. Arduino Nano es una versión compacta de Arduino Uno. Tiene el mismo microcontrolador ATmega328P pero en un factor de forma más pequeño, lo que la hace ideal para proyectos con espacio limitado.</string>
+
+<string name="arduino_leonardo_name">Arduino Leonardo</string>
+<string name="arduino_leonardo_description">Placa con chip ATmega32u4 y USB nativo. Arduino Leonardo es una placa de desarrollo que utiliza el microcontrolador ATmega32u4. Destaca por tener soporte para USB nativo, lo que simplifica la comunicación con la computadora y otros dispositivos.</string>
+
+<string name="arduino_due_name">Arduino Due</string>
+<string name="arduino_due_description">Placa con procesador ARM de 32 bits. Arduino Due es una placa de desarrollo que utiliza un microcontrolador ARM Cortex-M3 de 32 bits. Ofrece un rendimiento superior y es ideal para aplicaciones que requieren más potencia de procesamiento.</string>
+
+<string name="arduino_pro_mini_name">Arduino Pro Mini</string>
+<string name="arduino_pro_mini_description">Placa compacta diseñada para proyectos permanentes. Arduino Pro Mini es una versión compacta de Arduino Uno. Está diseñada para proyectos permanentes donde el tamaño es crítico y no se necesita la comodidad de un puerto USB integrado.</string>
+
+<string name="arduino_pro_micro_name">Arduino Pro Micro</string>
+<string name="arduino_pro_micro_description">Placa compacta con chip ATmega32u4. Arduino Pro Micro es similar a Arduino Leonardo pero en un factor de forma más pequeño. Utiliza el mismo microcontrolador ATmega32u4 y ofrece USB nativo para una fácil programación y comunicación.</string>
+
+<string name="arduino_mkr1000_name">Arduino MKR1000</string>
+<string name="arduino_mkr1000_description">Placa con conectividad WiFi. Arduino MKR1000 es una placa de desarrollo que ofrece conectividad WiFi integrada. Es ideal para proyectos IoT que requieren conexión a internet de manera inalámbrica.</string>
+
+<string name="arduino_mkr_zero_name">Arduino MKR Zero</string>
+<string name="arduino_mkr_zero_description">Placa con procesador SAMD21 de 32 bits. Arduino MKR Zero utiliza un microcontrolador SAMD21 de 32 bits. Ofrece un rendimiento potente y eficiente en energía, lo que lo hace ideal para aplicaciones que requieren bajo consumo de energía.</string>
+
+<string name="arduino_mkr_fox_1200_name">Arduino MKR FOX 1200</string>
+<string name="arduino_mkr_fox_1200_description">Placa con conectividad Sigfox. Arduino MKR FOX 1200 es una placa de desarrollo que ofrece conectividad Sigfox integrada. Es ideal para proyectos IoT que requieren una larga duración de la batería y una conexión de largo alcance.</string>
+
+<string name="arduino_mkr_wan_1300_name">Arduino MKR WAN 1300</string>
+<string name="arduino_mkr_wan_1300_description">Placa con conectividad LoRa. Arduino MKR WAN 1300 es una placa de desarrollo que ofrece conectividad LoRa integrada. Es ideal para proyectos IoT que requieren una conexión de largo alcance y bajo consumo de energía.</string>
+
+<string name="arduino_mkr_gsm_1400_name">Arduino MKR GSM 1400</string>
+<string name="arduino_mkr_gsm_1400_description">Placa con conectividad GSM. Arduino MKR GSM 1400 es una placa de desarrollo que ofrece conectividad GSM integrada. Es ideal para proyectos IoT que requieren comunicación celular para enviar y recibir datos.</string>
+
+<string name="arduino_mkr_nb_1500_name">Arduino MKR NB 1500</string>
+<string name="arduino_mkr_nb_1500_description">Placa con conectividad NB-IoT. Arduino MKR NB 1500 es una placa de desarrollo que ofrece conectividad NB-IoT integrada. Es ideal para proyectos IoT que requieren una conexión de bajo consumo de energía y de largo alcance.</string>
+
+<string name="arduino_mkr_vidor_4000_name">Arduino MKR VIDOR 4000</string>
+<string name="arduino_mkr_vidor_4000_description">Placa con FPGA integrada. Arduino MKR VIDOR 4000 es una placa de desarrollo que incluye una FPGA integrada. Esto permite una mayor flexibilidad y capacidad de procesamiento para proyectos avanzados.</string>
+
+<string name="arduino_nano_33_iot_name">Arduino Nano 33 IoT</string>
+<string name="arduino_nano_33_iot_description">Placa con conectividad WiFi y Bluetooth. Arduino Nano 33 IoT es una placa de desarrollo que ofrece conectividad WiFi y Bluetooth integrada. Es ideal para proyectos IoT que requieren comunicación inalámbrica y bajo consumo de energía.</string>
+
+<string name="arduino_nano_33_ble_name">Arduino Nano 33 BLE</string>
+<string name="arduino_nano_33_ble_description">Placa con conectividad Bluetooth de baja energía. Arduino Nano 33 BLE es una placa de desarrollo que ofrece conectividad Bluetooth de baja energía integrada. Es ideal para proyectos que requieren comunicación inalámbrica de bajo consumo de energía.</string>
+
+<string name="arduino_nano_33_ble_sense_name">Arduino Nano 33 BLE Sense</string>
+<string name="arduino_nano_33_ble_sense_description">Placa con sensores integrados. Arduino Nano 33 BLE Sense es una placa de desarrollo que incluye sensores integrados como acelerómetro, giroscopio, temperatura, humedad y presión. Es ideal para proyectos que requieren detección de movimiento y ambiente.</string>
+
+<string name="arduino_nano_every_name">Arduino Nano Every</string>
+<string name="arduino_nano_every_description">Versión actualizada de Arduino Nano. Arduino Nano Every es una versión actualizada de Arduino Nano con un microcontrolador ATmega4809. Ofrece un rendimiento mejorado y es compatible con las librerías y proyectos existentes de Arduino Nano.</string>
+
+<string name="arduino_nano_rp2040_connect_name">Arduino Nano RP2040 Connect</string>
+<string name="arduino_nano_rp2040_connect_description">Placa basada en el chip RP2040 de Raspberry Pi. Arduino Nano RP2040 Connect es una placa de desarrollo que utiliza el chip RP2040 de Raspberry Pi. Ofrece un rendimiento potente y es ideal para proyectos que requieren una capacidad de procesamiento avanzada.</string>
+
+</resources>
