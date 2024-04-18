@@ -1,4 +1,4 @@
-package com.yamz.infoiot
+package com.yamz.infoiot.cables
 data class WireList(
     val id: Int,
     val img: String,

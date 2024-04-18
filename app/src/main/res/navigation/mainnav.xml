@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/wireDetailFragment"
-        android:name="com.yamz.infoiot.WireDetailFragment"
+        android:name="com.yamz.infoiot.cables.WireDetailFragment"
         android:label="fragment_wire_detail"
         tools:layout="@layout/fragment_wire_detail" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/wireListFragment"
-        android:name="com.yamz.infoiot.WireListFragment"
+        android:name="com.yamz.infoiot.cables.WireListFragment"
         android:label="fragment_wire_list"
         tools:layout="@layout/fragment_wire_list" >
         <action

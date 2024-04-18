@@ -50,8 +50,7 @@ class HomeListAdapter(private var homeList: List<HomeList>): RecyclerView.Adapte
                         R.id.action_homeFragment_to_wireListFragment)
                 }
                 else -> {
-                    // Opción por defecto
-                    println("ninguna de las anteriores")
+                    Log.d("Error", "No ha seleccionado ninguna opcion.")
                 }
             }
         }

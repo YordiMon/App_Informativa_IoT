@@ -1,16 +1,13 @@
-package com.yamz.infoiot
+package com.yamz.infoiot.cables
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.yamz.infoiot.R
 
 class WireListAdapter(private var wireList: List<WireList>): RecyclerView.Adapter<WireListAdapter.WireViewHolder>() {
 

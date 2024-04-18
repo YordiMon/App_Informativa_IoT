@@ -3,6 +3,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.yamz.infoiot.R
@@ -38,11 +39,14 @@ class AdvComponents : Fragment() {
         )
 
         val adapter = IotComponentAdapter(iotComponents) { component ->
-            val detailsFago = DetailsFago()
+            val navController = findNavController()
+
             val bundle = Bundle()
-            bundle.putString(DetailsFago.ARG_DESCRIPTION, component.description)
             bundle.putString(DetailsFago.ARG_NAME, component.name)
-            detailsFago.arguments = bundle
+            bundle.putString(DetailsFago.ARG_DESCRIPTION, component.description)
+
+            navController.navigate(R.id.action_advComponents_to_detailsFago, bundle)
+
         }
 
         recyclerView.adapter = adapter
