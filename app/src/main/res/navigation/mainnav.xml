@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.yamz.infoiot.HomeFragment"
+        android:name="com.yamz.infoiot.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_arduinoListFragment"
             app:destination="@id/arduinoListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_advComponents"
+            app:destination="@id/advComponents" />
     </fragment>
 
     <fragment
@@ -35,6 +38,9 @@
         <action
             android:id="@+id/action_wireListFragment_to_wireDetailFragment"
             app:destination="@id/wireDetailFragment" />
+        <action
+            android:id="@+id/action_wireListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
     <fragment
@@ -53,6 +59,25 @@
         <action
             android:id="@+id/action_arduinoDetailsFragment_to_arduinoListFragment"
             app:destination="@id/arduinoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/advComponents"
+        android:name="AdvComponents"
+        android:label="AdvComponents" >
+        <action
+            android:id="@+id/action_advComponents_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_advComponents_to_detailsFago"
+            app:destination="@id/detailsFago" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFago"
+        android:name="DetailsFago"
+        android:label="DetailsFago" >
+        <action
+            android:id="@+id/action_detailsFago_to_advComponents"
+            app:destination="@id/advComponents" />
     </fragment>
 
 </navigation>
