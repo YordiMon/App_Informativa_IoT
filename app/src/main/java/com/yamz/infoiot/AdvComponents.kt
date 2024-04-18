@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-
 import com.yamz.infoiot.R
 
 class AdvComponents : Fragment() {
@@ -36,13 +35,13 @@ class AdvComponents : Fragment() {
 
             IotComponent("Controlador de puerta",
                 "El controlador de puerta electrónica es un dispositivo de seguridad que gestiona el acceso a una entrada mediante métodos de autenticación seguros. Puede ser utilizado en residencias, edificios de oficinas, y instalaciones industriales para proporcionar un nivel adicional de protección. Los controladores de puerta modernos ofrecen múltiples opciones de autenticación como contraseñas, tarjetas RFID, y reconocimiento facial o de huellas dactilares. Esto permite adaptar el nivel de seguridad según las necesidades específicas de cada aplicación.")
-
         )
 
         val adapter = IotComponentAdapter(iotComponents) { component ->
             val detailsFago = DetailsFago()
             val bundle = Bundle()
             bundle.putString(DetailsFago.ARG_DESCRIPTION, component.description)
+            bundle.putString(DetailsFago.ARG_NAME, component.name)
             detailsFago.arguments = bundle
 
             requireFragmentManager().beginTransaction()
