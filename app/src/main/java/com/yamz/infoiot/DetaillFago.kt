@@ -1,37 +1,40 @@
-package com.yamz.infoiot
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import java.io.Serializable
+import android.widget.TextView
+import com.yamz.infoiot.R
 
-class DetaillFago : Fragment() {
+class DetailsFago : Fragment() {
+
     companion object {
-        const val ARG_COMPONENT = "component"
+        const val ARG_NAME = "name"
+        const val ARG_DESCRIPTION = "description"
     }
 
-    private lateinit var component: AdvComponents.IotComponent
+    private var name: String? = null
+    private var description: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            component = it.getSerializable(ARG_COMPONENT) as AdvComponents.IotComponent
+            name = it.getString(ARG_NAME)
+            description = it.getString(ARG_DESCRIPTION)
         }
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_detaill_fago, container, false)
 
-        val textView: TextView = view.findViewById(R.id.detailTextView)
-        val detailTextView: TextView = view.findViewById(R.id.detailDescriptionTextView)
+        val nameTextView: TextView = view.findViewById(R.id.componentNameTextView)
+        val descriptionTextView: TextView = view.findViewById(R.id.descriptionTextView)
 
-        textView.text = component.name
-        detailTextView.text = component.description
+        nameTextView.text = name
+        descriptionTextView.text = description
 
         return view
     }
