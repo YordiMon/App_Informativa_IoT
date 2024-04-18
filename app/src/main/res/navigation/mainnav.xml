@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_wireListFragment"
             app:destination="@id/wireListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_arduinoListFragment"
+            app:destination="@id/arduinoListFragment" />
     </fragment>
 
     <fragment
@@ -33,4 +36,23 @@
             android:id="@+id/action_wireListFragment_to_wireDetailFragment"
             app:destination="@id/wireDetailFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/arduinoListFragment"
+        android:name="com.yamz.infoiot.ArduinoListFragment"
+        android:label="fragment_arduino_list"
+        tools:layout="@layout/fragment_arduino_list" >
+        <action
+            android:id="@+id/action_arduinoListFragment_to_arduinoDetailsFragment"
+            app:destination="@id/arduinoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/arduinoDetailsFragment"
+        android:name="ArduinoDetailsFragment"
+        android:label="ArduinoDetailsFragment" >
+        <action
+            android:id="@+id/action_arduinoDetailsFragment_to_arduinoListFragment"
+            app:destination="@id/arduinoListFragment" />
+    </fragment>
+
 </navigation>
