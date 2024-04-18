@@ -45,7 +45,7 @@
 
     <fragment
         android:id="@+id/arduinoListFragment"
-        android:name="com.yamz.infoiot.ArduinoListFragment"
+        android:name="com.yamz.infoiot.arduino.ArduinoListFragment"
         android:label="fragment_arduino_list"
         tools:layout="@layout/fragment_arduino_list" >
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/arduinoDetailsFragment"
-        android:name="ArduinoDetailsFragment"
+        android:name="com.yamz.infoiot.arduino.ArduinoDetailsFragment"
         android:label="ArduinoDetailsFragment" >
         <action
             android:id="@+id/action_arduinoDetailsFragment_to_arduinoListFragment"

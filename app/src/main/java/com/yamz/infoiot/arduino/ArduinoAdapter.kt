@@ -1,9 +1,10 @@
+package com.yamz.infoiot.arduino
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.TextView
-import com.yamz.infoiot.ArduinoListFragment
 import com.yamz.infoiot.R
 
 class ArduinoAdapter(
