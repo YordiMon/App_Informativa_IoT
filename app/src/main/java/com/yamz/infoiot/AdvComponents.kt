@@ -44,7 +44,10 @@ class AdvComponents : Fragment() {
             bundle.putString(DetailsFago.ARG_NAME, component.name)
             detailsFago.arguments = bundle
 
-            // Aquí es donde se agregará el código para mostrar el DetailsFago Fragment
+            requireFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, detailsFago)
+                .addToBackStack(null)
+                .commit()
         }
 
         recyclerView.adapter = adapter
