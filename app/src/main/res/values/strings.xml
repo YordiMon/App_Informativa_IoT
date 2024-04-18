@@ -1,5 +1,18 @@
 <resources>
-    <string name="app_name">InfoIoT</string>
+    <string name="app_name">Info IoT</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cables">
+        "
+Cables are essential components of computer systems, providing the necessary physical connections that enable seamless communication and functionality among various hardware peripherals and components.
+        "
+    </string>
+
+    <string name="maleToMale">MALE TO MALE</string>
+    <string name="maleToMaleDescription">
+        "
+A male-to-male cable is a cable that has the same type of connector at both ends, that is, the \'male' connector. These cables are used to connect devices that have the same type of port or connector, thus requiring a direct connection between them without the need for additional adapters or cables.\n\nFor example, a male-to-male Ethernet cable is used to directly connect two network devices, such as two computers or a computer and a router, without the need for a network switch or hub. Similarly, a male-to-male HDMI cable is used to directly connect two HDMI devices, such as a Blu-ray player to a television, without the need for an adapter.\n\nIn summary, male-to-male cables are useful when you need a direct connection between two devices that have the same type of port or connector.
+        "
+    </string>
 </resources>

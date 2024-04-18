@@ -9,5 +9,28 @@
         android:id="@+id/homeFragment"
         android:name="com.yamz.infoiot.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_wireListFragment"
+            app:destination="@id/wireListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wireDetailFragment"
+        android:name="com.yamz.infoiot.WireDetailFragment"
+        android:label="fragment_wire_detail"
+        tools:layout="@layout/fragment_wire_detail" >
+        <action
+            android:id="@+id/action_wireDetailFragment_to_wireListFragment"
+            app:destination="@id/wireListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wireListFragment"
+        android:name="com.yamz.infoiot.WireListFragment"
+        android:label="fragment_wire_list"
+        tools:layout="@layout/fragment_wire_list" >
+        <action
+            android:id="@+id/action_wireListFragment_to_wireDetailFragment"
+            app:destination="@id/wireDetailFragment" />
+    </fragment>
 </navigation>
