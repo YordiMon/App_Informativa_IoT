@@ -43,11 +43,6 @@ class AdvComponents : Fragment() {
             bundle.putString(DetailsFago.ARG_DESCRIPTION, component.description)
             bundle.putString(DetailsFago.ARG_NAME, component.name)
             detailsFago.arguments = bundle
-
-            requireFragmentManager().beginTransaction()
-                .replace(R.id.fragment_container, detailsFago)
-                .addToBackStack(null)
-                .commit()
         }
 
         recyclerView.adapter = adapter
