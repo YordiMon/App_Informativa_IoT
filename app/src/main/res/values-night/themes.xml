@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-
+    
     <style name="Base.Theme.InfoIoT" parent="Theme.Material3.DayNight.NoActionBar">
 
     </style>
@@ -24,5 +24,5 @@
         <item name="android:textColor">@color/lightGrey</item>
         <item name="android:layout_marginHorizontal">15dp</item>
     </style>
-
 </resources>
+
