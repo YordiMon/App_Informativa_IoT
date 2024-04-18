@@ -44,7 +44,7 @@
         android:layout_marginBottom="304dp"
         android:padding="8dp"
         android:scrollbars="vertical"
-        android:text="@string/resistencias_info"
+        android:text="@string/resistor_info"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,12 +59,14 @@
         android:layout_height="150dp"
         android:layout_marginBottom="32dp"
         android:src="@drawable/resistors"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        android:onClick="openResInfo"
+    app:layout_constraintBottom_toTopOf="@+id/textView4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0" />
+
 
     <TextView
         android:id="@+id/textView4"
@@ -74,7 +76,6 @@
         android:text="Colores y Resistencias de 4 bandas"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.581"

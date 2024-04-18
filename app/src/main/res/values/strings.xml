@@ -3,6 +3,38 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="resistencias_info">Las resistencias son componentes electrónicos pasivos que introducen una resistencia eléctrica específica en un circuito, controlando así el flujo de corriente, limitando la corriente o dividiendo el voltaje. Se caracterizan por una amplia variedad de valores de resistencia, potencias nominales y tolerancias para adaptarse a diversas aplicaciones.\n\nAspectos clave sobre las resistencias incluyen:\n\nValor de resistencia (Ohmios): Determina la oposición al flujo de corriente y se mide en ohmios (Ω). Puede calcularse usando la Ley de Ohm. Algunas resistencias tienen valores ajustables, como potenciómetros o resistencias variables.\n\nPotencia nominal (vatios): Indica la energía que la resistencia puede disipar sin dañarse. Las resistencias con valores más altos pueden manejar corrientes mayores sin calentarse excesivamente.\n\nTolerancia: Especifica la variación permisible en el valor nominal de la resistencia. Por ejemplo, una tolerancia del 5% permite una variación del 5% hacia arriba o hacia abajo desde su valor nominal.\n\nTipo de montaje: Las resistencias vienen en diferentes formatos de montaje, como montaje en superficie (SMD) o montaje de orificio pasante, permitiendo su integración en diversas placas de circuito.\n\nPara identificar el valor de resistencia en resistencias de orificio pasante, se utiliza un código de colores en las bandas del cuerpo de la resistencia.</string>
+    <string name="resistor_info">Las resistencias son componentes electrónicos pasivos que introducen una resistencia eléctrica específica en un circuito, controlando así el flujo de corriente, limitando la corriente o dividiendo el voltaje. Se caracterizan por una amplia variedad de valores de resistencia, potencias nominales y tolerancias para adaptarse a diversas aplicaciones.\n\nAspectos clave sobre las resistencias incluyen:\n\nValor de resistencia (Ohmios): Determina la oposición al flujo de corriente y se mide en ohmios (Ω). Puede calcularse usando la Ley de Ohm. Algunas resistencias tienen valores ajustables, como potenciómetros o resistencias variables.\n\nPotencia nominal (vatios): Indica la energía que la resistencia puede disipar sin dañarse. Las resistencias con valores más altos pueden manejar corrientes mayores sin calentarse excesivamente.\n\nTolerancia: Especifica la variación permisible en el valor nominal de la resistencia. Por ejemplo, una tolerancia del 5% permite una variación del 5% hacia arriba o hacia abajo desde su valor nominal.\n\nTipo de montaje: Las resistencias vienen en diferentes formatos de montaje, como montaje en superficie (SMD) o montaje de orificio pasante, permitiendo su integración en diversas placas de circuito.\n\nPara identificar el valor de resistencia en resistencias de orificio pasante, se utiliza un código de colores en las bandas del cuerpo de la resistencia.</string>
+    <string name="resistor_color">Los colores de las bandas en las resistencias se utilizan para indicar su valor, tolerancia y, en algunos casos, su coeficiente de temperatura.
+
+Bandas de Valor:
+Primera y segunda banda: Indican los dígitos significativos del valor de resistencia.
+Tercera banda: Indica el factor de multiplicación (número de ceros que se agregan al valor).
+Cuarta banda (opcional): Indica la tolerancia del valor de la resistencia.
+Bandas de Tolerancia:
+Se encuentran en resistencias de precisión para indicar la tolerancia del valor de resistencia.
+Los colores comunes para la tolerancia son: dorado (5%), plateado (10%) y ninguno (20%).
+Bandas de Coeficiente de Temperatura (en resistencias de película metálica):
+Indican cómo cambia la resistencia con la temperatura.
+Los colores comunes para el coeficiente de temperatura son: marrón (100 ppm/K), rojo (50 ppm/K), verde (25 ppm/K), azul (10 ppm/K), y violeta (5 ppm/K).</string>
+
+
+
+
+
+    <string-array name="resistor_colorss">
+        <item>Negro</item>
+        <item>Marrón</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Gris</item>
+        <item>Blanco</item>
+    </string-array>
+
+
+
 
 </resources>

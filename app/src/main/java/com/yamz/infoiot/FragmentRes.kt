@@ -15,19 +15,17 @@ class FragmentRes : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_res, container, false)
-        val textView4 = view.findViewById<TextView>(R.id.textView4)
-
-        textView4.setOnClickListener {
-            val fragmentResInfo = FragmentResInfo()
-            val fragmentManager: FragmentManager = requireActivity().supportFragmentManager
-            val transaction = fragmentManager.beginTransaction()
-
-            transaction.replace(R.id.fragment_container, fragmentResInfo)
-            transaction.addToBackStack(null)
-            transaction.commit()
-        }
-
         return view
+    }
+
+    fun openResInfo(view: View) {
+        val fragmentResInfo = FragmentResInfo()
+        val fragmentManager: FragmentManager = requireActivity().supportFragmentManager
+        val transaction = fragmentManager.beginTransaction()
+
+        transaction.replace(R.id.fragment_container, fragmentResInfo)
+        transaction.addToBackStack(null)
+        transaction.commit()
     }
 
 }
