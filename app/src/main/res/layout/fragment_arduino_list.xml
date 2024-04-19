@@ -48,6 +48,19 @@ style="@style/background">
         android:text="@string/arduinos"
         style="@style/description"
         android:layout_marginBottom="16dp" />
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar..."
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:layout_margin="8dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
