@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/resistorsListFragment">
+
+    <fragment
+        android:id="@+id/resistorsListFragment"
+        android:name="com.yamz.infoiot.ResistorsListFragment"
+        android:label="fragment_resistors_list"
+        tools:layout="@layout/fragment_resistors_list" />
+
+    <fragment
+        android:id="@+id/resistorsDetailFragment"
+        android:name="com.yamz.infoiot.DetailsResistorFragment"
+        android:label="fragment_resistors_detail"
+        tools:layout="@layout/fragment_resistors_detail" />
+
+
+    <action
+        android:id="@+id/action_resistorsListFragment_to_resistorsDetailFragment"
+        app:destination="@id/resistorsDetailFragment" />
+
+</navigation>
