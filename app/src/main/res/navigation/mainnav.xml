@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_homeFragment_to_bscComponentListFragment"
             app:destination="@id/bscComponentListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_resistorsListFragment"
+            app:destination="@id/resistorsListFragment" />
     </fragment>
 
     <fragment
@@ -101,6 +104,27 @@
             app:destination="@id/bscComponentDetailFragment" />
         <action
             android:id="@+id/action_bscComponentListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsResistorFragment"
+        android:name="com.yamz.infoiot.DetailsResistorFragment"
+        android:label="fragment_resistors_detail"
+        tools:layout="@layout/fragment_resistors_detail" >
+        <action
+            android:id="@+id/action_detailsResistorFragment_to_resistorsListFragment"
+            app:destination="@id/resistorsListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resistorsListFragment"
+        android:name="com.yamz.infoiot.ResistorsListFragment"
+        android:label="fragment_resistors_list"
+        tools:layout="@layout/fragment_resistors_list" >
+        <action
+            android:id="@+id/action_resistorsListFragment_to_detailsResistorFragment"
+            app:destination="@id/detailsResistorFragment" />
+        <action
+            android:id="@+id/action_resistorsListFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
 

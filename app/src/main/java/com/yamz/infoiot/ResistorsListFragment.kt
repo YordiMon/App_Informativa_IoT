@@ -37,7 +37,7 @@ class ResistorsListFragment : Fragment() {
             bundle.putString(DetailsResistorFragment.ARG_NAME, resistor.name)
             bundle.putString(DetailsResistorFragment.ARG_DESCRIPTION, resistor.description)
 
-            navController.navigate(R.id.action_resistorsListFragment_to_resistorsDetailFragment, bundle)
+            navController.navigate(R.id.action_resistorsListFragment_to_detailsResistorFragment, bundle)
 
         }
 
