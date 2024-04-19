@@ -120,5 +120,6 @@
     <string name="door_controller_title">Door Controller</string>
     <string name="door_controller_description">The electronic door controller is a security device that manages access to an entrance using secure authentication methods. It can be used in residences, office buildings, and industrial facilities to provide an additional level of protection. Modern door controllers offer multiple authentication options such as passwords, RFID cards, and facial or fingerprint recognition. This allows adapting the security level to the specific needs of each application.</string>
 
+    <string name="advanced_components_description">Sophisticated and specialized electronic components that provide advanced functionalities and customization options for more complex projects.</string>
     <!-- COMPONENTES AVANZADOS -->
 </resources>
