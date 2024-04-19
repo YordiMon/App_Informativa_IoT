@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/advComponents"
-        android:name="AdvComponents"
+        android:name="com.yamz.infoiot.AdvComponents.AdvComponents"
         android:label="AdvComponents" >
         <action
             android:id="@+id/action_advComponents_to_homeFragment"
