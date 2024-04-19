@@ -105,6 +105,10 @@
 
 
     <!-- COMPONENTES BASICOS -->
+    <string name="arduino_components_description">Los componentes básicos de Arduino son los elementos fundamentales que se utilizan para construir proyectos electrónicos con la plataforma Arduino. Estos componentes incluyen sensores, actuadores, dispositivos de entrada y salida, y otros elementos que permiten interactuar con el entorno y realizar diversas tareas. Los componentes básicos son la base sobre la cual se construyen proyectos más complejos, y su combinación y programación permiten crear una amplia variedad de dispositivos y sistemas, desde simples luces interactivas hasta robots complejos. Algunos ejemplos de componentes básicos incluyen LED, botones, resistencias, servomotores, sensores de luz, sensores de temperatura, y muchos más. La versatilidad de Arduino y la amplia disponibilidad de componentes hacen que sea una plataforma ideal para aprender electrónica, realizar prototipos rápidos y desarrollar proyectos de robótica e Internet de las cosas (IoT).</string>
+
+
+
     <string name="lcd_display_description">Display LCD (Liquid Crystal Display): Un dispositivo que utiliza cristales líquidos para mostrar información visual en proyectos electrónicos.</string>
 
     <string name="motion_sensor_description">Sensor de movimiento (PIR - Passive Infrared Sensor): Detecta cambios en la radiación infrarroja para detectar movimiento humano en aplicaciones de seguridad y automatización.</string>
