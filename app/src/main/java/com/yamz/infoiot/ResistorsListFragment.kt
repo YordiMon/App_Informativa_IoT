@@ -24,10 +24,10 @@ class ResistorsListFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
         val resistors = listOf(
-                Resistors("Resistor de 4 bandas", getString(R.string.resistor_4bands)),
-                Resistors("Resistor de 5 bandas", getString(R.string.resistor_5bands)),
-                Resistors("Resistor de 6 bandas", getString(R.string.resistor_6bands)),
-                Resistors("Código de colores", getString(R.string.colorvalue2))
+                Resistors( getString(R.string.resistor_4bands_description), getString(R.string.resistor_4bands), "band_resistor4"),
+                Resistors(getString(R.string.resistor_5bands_description), getString(R.string.resistor_5bands), "band_resistor5"),
+                Resistors(getString(R.string.resistor_6bands_description), getString(R.string.resistor_6bands), "band_resistor6"),
+                Resistors(getString(R.string.colorvalue2_description), getString(R.string.colorvalue2), "colorres")
         )
 
         val adapter = ResistorsAdapter(resistors) { resistor ->
@@ -45,5 +45,5 @@ class ResistorsListFragment : Fragment() {
         return view
     }
 
-    data class Resistors(val name: String, val description: String)
+    data class Resistors(val name: String, val description: String, val img: String)
 }

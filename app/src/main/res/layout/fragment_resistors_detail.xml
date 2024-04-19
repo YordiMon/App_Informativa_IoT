@@ -23,6 +23,13 @@
             android:gravity="center"
             android:paddingBottom="4dp" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagename"
+            ></ImageView>
+
+
         <TextView
             android:id="@+id/descriptionTextView"
             android:layout_width="match_parent"

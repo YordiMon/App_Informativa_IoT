@@ -163,10 +163,10 @@ Las resistencias de 6 bandas son especialmente útiles en aplicaciones donde se 
 
 
 
-    <string name="resistor_4bands_description">Descripción para Resistor de 4 bandas...</string>
-    <string name="resistor_5bands_description">Descripción para Resistor de 5 bandas...</string>
-    <string name="resistor_6bands_description">Descripción para Resistor de 6 bandas...</string>
-    <string name="colorvalue2_description">Descripción para Código de colores...</string>
+    <string name="resistor_4bands_description">Resistencias de 4 bandas</string>
+    <string name="resistor_5bands_description">Resistencias de 5 bandas</string>
+    <string name="resistor_6bands_description">Resistencias de 6 bandas</string>
+    <string name="colorvalue2_description">Código de colores</string>
 
 
 </resources>
