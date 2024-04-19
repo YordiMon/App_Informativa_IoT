@@ -37,11 +37,11 @@ class HomeFragment : Fragment() {
 
     private fun initData() {
         elementList = listOf(
-            HomeList(1, "Arduinos"),
-            HomeList(2, "Componentes básicos"),
-            HomeList(3, "Componentes avanzados"),
-            HomeList(4, "Resistencias"),
-            HomeList(5, "Cables"),
+            HomeList(1, getString(R.string.arduino)),
+            HomeList(2, getString(R.string.basic_components)),
+            HomeList(3, getString(R.string.advanced_components)),
+            HomeList(4, getString(R.string.resistors)),
+            HomeList(5, getString(R.string.cableElement)),
         )
     }
 }
