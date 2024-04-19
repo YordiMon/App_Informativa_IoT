@@ -36,7 +36,8 @@ class HomeListAdapter(private var homeList: List<HomeList>): RecyclerView.Adapte
                         R.id.action_homeFragment_to_arduinoListFragment)
                 }
                 2 -> {
-                    // No ha terminado
+                    it.findNavController().navigate(
+                        R.id.action_homeFragment_to_bscComponentListFragment)
                 }
                 3 -> {
                     it.findNavController().navigate(

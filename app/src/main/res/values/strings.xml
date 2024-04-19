@@ -102,7 +102,6 @@
     <string name="arduino_nano_rp2040_connect_description">Board based on the RP2040 chip from Raspberry Pi. Arduino Nano RP2040 Connect is a development board that uses the RP2040 chip from Raspberry Pi. It offers powerful performance and is ideal for projects that require advanced processing capability.</string>
 
 
-
     <!-- COMPONENTES AVANZADOS -->
 
     <string name="temperature_sensor_title">Temperature Sensor</string>

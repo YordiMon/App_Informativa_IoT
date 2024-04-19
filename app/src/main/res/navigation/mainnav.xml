@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment_to_advComponents"
             app:destination="@id/advComponents" />
+        <action
+            android:id="@+id/action_homeFragment_to_bscComponentListFragment"
+            app:destination="@id/bscComponentListFragment" />
     </fragment>
 
     <fragment
@@ -78,6 +81,27 @@
         <action
             android:id="@+id/action_detailsFago_to_advComponents"
             app:destination="@id/advComponents" />
+    </fragment>
+    <fragment
+        android:id="@+id/bscComponentDetailFragment"
+        android:name="com.yamz.infoiot.BscComponents.BscComponentDetailFragment"
+        android:label="fragment_bsc_component_detail"
+        tools:layout="@layout/fragment_bsc_component_detail" >
+        <action
+            android:id="@+id/action_bscComponentDetailFragment_to_bscComponentListFragment"
+            app:destination="@id/bscComponentListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bscComponentListFragment"
+        android:name="com.yamz.infoiot.BscComponents.BscComponentListFragment"
+        android:label="fragment_bsc_component_list"
+        tools:layout="@layout/fragment_bsc_component_list" >
+        <action
+            android:id="@+id/action_bscComponentListFragment_to_bscComponentDetailFragment"
+            app:destination="@id/bscComponentDetailFragment" />
+        <action
+            android:id="@+id/action_bscComponentListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
 
 </navigation>
