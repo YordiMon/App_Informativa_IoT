@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background">
 
-    android:layout_height="match_parent">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        style="@style/toolbarBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info IoT"
+            style="@style/title"
+            android:textAlignment="center"/>
+
+    </Toolbar>
+
+    <View
+        android:id="@+id/toolbarLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        style="@style/toolbarLine"
+        android:layout_below="@id/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arduinos"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        style="@style/title"
+        android:layout_below="@id/toolbarLine"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="16dp" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         style="@style/background"
+        android:layout_below="@id/toolbarLine"
         android:padding="16dp" />
-
-
 
 </RelativeLayout>
