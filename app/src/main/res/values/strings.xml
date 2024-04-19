@@ -122,4 +122,20 @@
 
     <string name="advanced_components_description">Sophisticated and specialized electronic components that provide advanced functionalities and customization options for more complex projects.</string>
     <!-- COMPONENTES AVANZADOS -->
+
+    <!-- COMPONENTES BASICOS -->
+    <string name="lcd_display_description">LCD Display (Liquid Crystal Display): A device that uses liquid crystals to display visual information in electronic projects.</string>
+
+    <string name="motion_sensor_description">Motion Sensor (PIR - Passive Infrared Sensor): Detects changes in infrared radiation to detect human motion in security and automation applications.</string>
+
+    <string name="ldr_description">Light Dependent Resistor (LDR): A component whose resistance varies according to the intensity of the light it receives, used to detect levels of ambient light and activate devices accordingly.</string>
+
+    <string name="led_description">LEDs (Light Emitting Diodes): Semiconductor devices that emit light when an electric current is applied, used as visual indicators in electronic circuits.</string>
+
+    <string name="buzzer_description">Buzzer (Piezoelectric Buzzer): A device that produces sound when voltage is applied, commonly used to generate audible alerts in electronic projects.</string>
+
+    <string name="light_dark_sensor_description">Light/Dark Sensor (Photodiode): Generates an electric current when exposed to light, used to measure light intensity or activate devices based on the presence or absence of light.</string>
+
+    <string name="ultrasonic_sensor_description">Ultrasonic Sensor (HC-SR04): Uses sound waves to measure distances between the sensor and an object, widely used in robotics projects and proximity detection.</string>
+    <!-- COMPONENTES BASICOS -->
 </resources>
