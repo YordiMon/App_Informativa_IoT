@@ -109,19 +109,27 @@
 
 
 
-    <string name="lcd_display_description">Display LCD (Liquid Crystal Display): Un dispositivo que utiliza cristales líquidos para mostrar información visual en proyectos electrónicos.</string>
+    <string name="lcd_display_title">Pantalla LCD</string>
+    <string name="lcd_display_description">Pantalla LCD (Liquid Crystal Display): Un dispositivo que utiliza cristales líquidos para mostrar información visual en proyectos electrónicos.</string>
 
-    <string name="motion_sensor_description">Sensor de movimiento (PIR - Passive Infrared Sensor): Detecta cambios en la radiación infrarroja para detectar movimiento humano en aplicaciones de seguridad y automatización.</string>
+    <string name="motion_sensor_title">Sensor de Movimiento</string>
+    <string name="motion_sensor_description">Sensor de Movimiento (PIR - Passive Infrared Sensor): Detecta cambios en la radiación infrarroja para detectar movimiento humano en aplicaciones de seguridad y automatización.</string>
 
-    <string name="ldr_description">Fotorresistencia (LDR - Light Dependent Resistor): Un componente cuya resistencia varía según la intensidad de la luz que recibe, utilizado para detectar niveles de luz ambiental en entornos y activar dispositivos en consecuencia.</string>
+    <string name="ldr_title">Fotorresistencia (LDR)</string>
+    <string name="ldr_description">Fotorresistencia (LDR - Light Dependent Resistor): Un componente cuya resistencia varía según la intensidad de la luz que recibe, utilizado para detectar niveles de luz ambiental y activar dispositivos en consecuencia.</string>
 
+    <string name="led_title">LEDs</string>
     <string name="led_description">LEDs (Light Emitting Diodes): Dispositivos semiconductores que emiten luz cuando se les aplica corriente eléctrica, utilizados como indicadores visuales en circuitos electrónicos.</string>
 
-    <string name="buzzer_description">Buzzer (Zumbador Piezoeléctrico): Un dispositivo que produce sonido cuando se le aplica voltaje, comúnmente utilizado para generar alertas audibles en proyectos electrónicos.</string>
+    <string name="buzzer_title">Zumbador</string>
+    <string name="buzzer_description">Zumbador (Piezoeléctrico): Un dispositivo que produce sonido cuando se le aplica voltaje, comúnmente utilizado para generar alertas audibles en proyectos electrónicos.</string>
 
-    <string name="light_dark_sensor_description">Detector de luz/oscuridad (Fotodiodo): Genera una corriente eléctrica cuando es expuesto a la luz, utilizado para medir la intensidad luminosa o activar dispositivos en función de la presencia o ausencia de luz.</string>
+    <string name="light_dark_sensor_title">Sensor de Luz/Oscuridad</string>
+    <string name="light_dark_sensor_description">Sensor de Luz/Oscuridad (Fotodiodo): Genera una corriente eléctrica cuando está expuesto a la luz, utilizado para medir la intensidad lumínica o activar dispositivos en función de la presencia o ausencia de luz.</string>
 
-    <string name="ultrasonic_sensor_description">Sensor ultrasónico (HC-SR04): Utiliza ondas de sonido para medir distancias entre el sensor y un objeto, ampliamente utilizado en proyectos de robótica y detección de proximidad.</string>
+    <string name="ultrasonic_sensor_title">Sensor Ultrasónico</string>
+    <string name="ultrasonic_sensor_description">Sensor Ultrasónico (HC-SR04): Utiliza ondas sonoras para medir distancias entre el sensor y un objeto, ampliamente utilizado en proyectos de robótica y detección de proximidad.</string>
+
 
     <!-- COMPONENTES BASICOS -->
 
