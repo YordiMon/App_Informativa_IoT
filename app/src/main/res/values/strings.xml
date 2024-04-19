@@ -1,5 +1,29 @@
 <resources>
-    <string name="app_name">InfoIoT</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Info IoT</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="arduino_board">Arduino Board</string>
+    <string name="arduino_board_description">It serves as the brain of your project. There are various models of Arduino boards, such as Arduino Uno, Arduino Nano, Arduino Mega, etc. Each one has different features and capabilities.</string>
+
+    <string name="microcontroller">Microcontroller</string>
+    <string name="microcontroller_description">At the heart of every Arduino board is a microcontroller that runs the program you write. In most cases, these microcontrollers are from the AVR family by Atmel (now owned by Microchip) or ARM microcontrollers.</string>
+
+    <string name="input_output_ports">Input/Output Ports</string>
+    <string name="input_output_ports_description">These are the pins on the Arduino board through which you can connect sensors, actuators, and other external devices. The pins can be configured as inputs or outputs as needed.</string>
+
+    <string name="power_ports">Power Ports</string>
+    <string name="power_ports_description">Power ports provide power to the Arduino board and connected devices. The most common ones are the 5V power port and the ground port (GND).</string>
+
+    <string name="usb_connection">USB Connection</string>
+    <string name="usb_connection_description">Most Arduino boards have a USB port that is used to upload the program to the board and for serial communication with a computer.</string>
+
+    <string name="voltage_regulator">Voltage Regulator</string>
+    <string name="voltage_regulator_description">This component regulates the input voltage to provide a stable voltage to the board and connected devices.</string>
+
+    <string name="reset_button">Reset Button</string>
+    <string name="reset_button_description">A button that you can press to restart the program on the Arduino board.</string>
+
+    <string name="crystal_oscillator">Crystal Oscillator</string>
+    <string name="crystal_oscillator_description">Helps the microcontroller maintain precise timing synchronization. This is especially important to ensure accuracy in code execution.</string>
 </resources>

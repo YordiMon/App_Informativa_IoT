@@ -1,6 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">InfoIoT</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+
+    <string name="Placa_Arduino">Placa Arduino</string>
+    <string name="Placa_Arduino_Description">Sirve como el cerebro de tu proyecto. Hay varios modelos de placas Arduino, como Arduino Uno, Arduino Nano, Arduino Mega, etc. Cada uno tiene diferentes características y capacidades.</string>
+
+    <string name="Microcontrolador">Microcontrolador</string>
+    <string name="Microcontrolador_Description">En el corazón de cada placa Arduino hay un microcontrolador que ejecuta el programa que escribes. En la mayoría de los casos, estos microcontroladores son de la familia AVR de Atmel (ahora propiedad de Microchip) o microcontroladores ARM.</string>
+
+    <string name="Puertos_de_Entrada_Salida_IO">Puertos de Entrada/Salida</string>
+    <string name="Puertos_de_Entrada_Salida_IO_Description">Estos son los pines en la placa Arduino a través de los cuales puedes conectar sensores, actuadores y otros dispositivos externos. Los pines se pueden configurar como entradas o salidas según sea necesario.</string>
+
+    <string name="Puertos_de_Alimentacion">Puertos de Alimentación</string>
+    <string name="Puertos_de_Alimentacion_Description">Los puertos de alimentación proporcionan energía a la placa Arduino y a los dispositivos conectados. Los más comunes son el puerto de alimentación de 5V y el puerto de tierra (GND).</string>
+
+    <string name="Conexion_USB">Conexión USB</string>
+    <string name="Conexion_USB_Description">La mayoría de las placas Arduino tienen un puerto USB que se utiliza para cargar el programa en la placa y para la comunicación serie con un ordenador.</string>
+
+    <string name="Regulador_de_Voltaje">Regulador de Voltaje</string>
+    <string name="Regulador_de_Voltaje_Description">Este componente se encarga de regular el voltaje de entrada para proporcionar un voltaje estable a la placa y a los dispositivos conectados.</string>
+
+    <string name="Boton_de_Reinicio">Botón de Reinicio</string>
+    <string name="Boton_de_Reinicio_Description">Un botón que puedes presionar para reiniciar el programa en la placa Arduino.</string>
+
+    <string name="Cristal_Oscilador">Cristal Oscilador</string>
+    <string name="Cristal_Oscilador_Description">Ayuda al microcontrolador a mantener una sincronización precisa del tiempo. Esto es especialmente importante para asegurar la precisión en la ejecución del código.</string>
 </resources>
