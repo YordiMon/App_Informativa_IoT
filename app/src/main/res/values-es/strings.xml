@@ -3,9 +3,9 @@
 
     <string name="hello_blank_fragment">Hola fragmento en blanco</string>
 
-    <string name="cables">
-        "Los cables son componentes esenciales de los sistemas informáticos, proporcionando las conexiones físicas necesarias que permiten una comunicación y funcionalidad fluidas entre varios periféricos y componentes de hardware."
-    </string>
+    <string name="homeDescription">¡Selecciona alguno de los siguientes elementos para ver su información!</string>
+
+    <string name="cables">"Los cables son componentes esenciales de los sistemas informáticos, proporcionando las conexiones físicas necesarias que permiten una comunicación y funcionalidad fluidas entre varios periféricos y componentes de hardware."</string>
 
     <string name="maleToMale">MACHO A MACHO</string>
     <string name="maleToMaleDescription">"Un cable macho-macho es un cable que tiene el mismo tipo de conector en ambos extremos, es decir, el conector \'macho'. Estos cables se utilizan para conectar dispositivos que tienen el mismo tipo de puerto o conector, por lo que necesitan una conexión directa entre ellos sin la necesidad de adaptadores o cables adicionales.\n\nPor ejemplo, un cable Ethernet macho-macho se utiliza para conectar directamente dos dispositivos de red, como dos computadoras o una computadora y un enrutador, sin la necesidad de un interruptor de red o concentrador. De manera similar, un cable HDMI macho-macho se utiliza para conectar directamente dos dispositivos HDMI, como un reproductor de Blu-ray a un televisor, sin la necesidad de un adaptador.\n\nEn resumen, los cables macho-macho son útiles cuando necesitas una conexión directa entre dos dispositivos que tienen el mismo tipo de puerto o conector.</string>
