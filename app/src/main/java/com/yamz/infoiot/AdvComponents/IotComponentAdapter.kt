@@ -1,11 +1,5 @@
-<<<<<<< HEAD:app/src/main/java/com/yamz/infoiot/IotComponentAdapter.kt
-package com.yamz.infoiot.cables
-
-import android.os.Bundle
-=======
 package com.yamz.infoiot.AdvComponents
 
->>>>>>> ed917e0990addc0a0e2015e66e058c8cb8a32154:app/src/main/java/com/yamz/infoiot/AdvComponents/IotComponentAdapter.kt
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

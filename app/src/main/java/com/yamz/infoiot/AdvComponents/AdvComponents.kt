@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.yamz.infoiot.R
-import com.yamz.infoiot.cables.IotComponentAdapter
 
 class AdvComponents : Fragment() {
 
