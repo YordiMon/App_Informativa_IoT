@@ -14,11 +14,11 @@ class DetailsBasicosFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val myView = inflater.inflate(R.layout.fragment_wire_detail, container, false)
+        val myView = inflater.inflate(R.layout.fragment_basicos_details, container, false)
 
-        val wireImg = arguments?.getString("wireImg")
-        val wireTitle = arguments?.getString("wireTitle")
-        val wireDescription = arguments?.getString("wireDescription")
+        val wireImg = arguments?.getString("listImg")
+        val wireTitle = arguments?.getString("listTitle")
+        val wireDescription = arguments?.getString("listDescription")
 
         val id = myView.resources.getIdentifier(wireImg, "drawable", context?.packageName)
 
@@ -28,8 +28,8 @@ class DetailsBasicosFragment : Fragment() {
         val title = myView.findViewById<TextView>(R.id.title)
         val description = myView.findViewById<TextView>(R.id.description)
 
-        title.text = wireTitle ?: "Titulo no disponible"
-        description.text =  wireDescription ?: "Descripción no disponible"
+        title.text = listTitle ?: "Titulo no disponible"
+        description.text =  listDescription ?: "Descripción no disponible"
 
         return myView
     }
