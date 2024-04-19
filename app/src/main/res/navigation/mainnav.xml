@@ -23,8 +23,8 @@
             android:id="@+id/action_homeFragment_to_bscComponentListFragment"
             app:destination="@id/bscComponentListFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_resistorsListFragment"
-            app:destination="@id/resistorsListFragment" />
+            android:id="@+id/action_homeFragment_to_resistorsListFragment2"
+            app:destination="@id/resistorsListFragment2" />
     </fragment>
 
     <fragment
@@ -107,24 +107,24 @@
             app:destination="@id/homeFragment" />
     </fragment>
     <fragment
-        android:id="@+id/detailsResistorFragment"
-        android:name="com.yamz.infoiot.DetailsResistorFragment"
-        android:label="fragment_resistors_detail"
-        tools:layout="@layout/fragment_resistors_detail" >
+        android:id="@+id/resisitorsDetailFragment"
+        android:name="com.yamz.infoiot.Resistors.ResisitorsDetailFragment"
+        android:label="fragment_resisitors_detail"
+        tools:layout="@layout/fragment_resisitors_detail" >
         <action
-            android:id="@+id/action_detailsResistorFragment_to_resistorsListFragment"
-            app:destination="@id/resistorsListFragment" />
+            android:id="@+id/action_resisitorsDetailFragment_to_resistorsListFragment2"
+            app:destination="@id/resistorsListFragment2" />
     </fragment>
     <fragment
-        android:id="@+id/resistorsListFragment"
-        android:name="com.yamz.infoiot.ResistorsListFragment"
-        android:label="fragment_resistors_list"
+        android:id="@+id/resistorsListFragment2"
+        android:name="com.yamz.infoiot.Resistors.ResistorsListFragment"
+        android:label="fragment_resistors_list_2"
         tools:layout="@layout/fragment_resistors_list" >
         <action
-            android:id="@+id/action_resistorsListFragment_to_detailsResistorFragment"
-            app:destination="@id/detailsResistorFragment" />
+            android:id="@+id/action_resistorsListFragment2_to_resisitorsDetailFragment"
+            app:destination="@id/resisitorsDetailFragment" />
         <action
-            android:id="@+id/action_resistorsListFragment_to_homeFragment"
+            android:id="@+id/action_resistorsListFragment2_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
 

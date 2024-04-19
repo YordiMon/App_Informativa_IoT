@@ -45,7 +45,7 @@ class HomeListAdapter(private var homeList: List<HomeList>): RecyclerView.Adapte
                 }
                 4 -> {
                     it.findNavController().navigate(
-                        R.id.action_homeFragment_to_resistorsListFragment)
+                        R.id.action_homeFragment_to_resistorsListFragment2)
                 }
                 5 -> {
                     it.findNavController().navigate(
