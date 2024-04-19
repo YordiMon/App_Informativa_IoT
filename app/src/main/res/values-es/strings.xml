@@ -69,4 +69,24 @@
 <string name="arduino_nano_rp2040_connect_name">Arduino Nano RP2040 Connect</string>
 <string name="arduino_nano_rp2040_connect_description">Placa basada en el chip RP2040 de Raspberry Pi. Arduino Nano RP2040 Connect es una placa de desarrollo que utiliza el chip RP2040 de Raspberry Pi. Ofrece un rendimiento potente y es ideal para proyectos que requieren una capacidad de procesamiento avanzada.</string>
 
+
+    <!-- COMPONENTES AVANZADOS -->
+    <string name="temperature_sensor_title">Sensor de temperatura</string>
+    <string name="temperature_sensor_description">El sensor de temperatura es un dispositivo electrónico que mide la temperatura ambiente y proporciona datos precisos en tiempo real. Este sensor es esencial en aplicaciones industriales, comerciales y residenciales. En la industria, se utiliza para monitorear y controlar procesos críticos que requieren condiciones térmicas específicas. En entornos comerciales y residenciales, ayuda a gestionar sistemas de calefacción, ventilación y aire acondicionado para garantizar el confort y la eficiencia energética.</string>
+
+    <string name="humidity_sensor_title">Sensor de humedad</string>
+    <string name="humidity_sensor_description">El sensor de humedad mide la humedad relativa del aire y es fundamental para el control de la calidad del aire en diversos entornos. En la agricultura, se utiliza en invernaderos para monitorear y regular las condiciones de humedad para optimizar el crecimiento de las plantas. También es esencial en laboratorios y espacios de almacenamiento para mantener condiciones ambientales estables que preserven la integridad de los materiales sensibles.</string>
+
+    <string name="light_actuator_title">Actuador de luz</string>
+    <string name="light_actuator_description">El actuador de luz permite controlar la intensidad de la iluminación de manera remota o automática. Este dispositivo es parte integral de los sistemas de iluminación inteligente que ofrecen flexibilidad y eficiencia energética. Puede ser programado para ajustar la intensidad de la luz según las necesidades específicas del usuario, las condiciones ambientales o las preferencias de iluminación. Además, se puede integrar con otros dispositivos inteligentes para crear escenarios de iluminación personalizados y automatizados.</string>
+
+    <string name="ip_camera_title">Cámara IP</string>
+    <string name="ip_camera_description">La cámara IP es un sistema de vigilancia avanzado que ofrece monitoreo remoto con alta resolución de imagen. Estas cámaras son ideales para aplicaciones de seguridad en hogares, negocios y espacios públicos. Ofrecen características como detección de movimiento, visión nocturna, y grabación continua o por eventos. Además, permiten el acceso en tiempo real a las imágenes desde cualquier dispositivo con conexión a Internet, lo que proporciona tranquilidad y control total sobre el entorno vigilado.</string>
+
+    <string name="door_controller_title">Controlador de puerta</string>
+    <string name="door_controller_description">El controlador de puerta electrónica es un dispositivo de seguridad que gestiona el acceso a una entrada mediante métodos de autenticación seguros. Puede ser utilizado en residencias, edificios de oficinas, y instalaciones industriales para proporcionar un nivel adicional de protección. Los controladores de puerta modernos ofrecen múltiples opciones de autenticación como contraseñas, tarjetas RFID, y reconocimiento facial o de huellas dactilares. Esto permite adaptar el nivel de seguridad según las necesidades específicas de cada aplicación.</string>
+    <!-- COMPONENTES AVANZADOS -->
+
+
+
 </resources>

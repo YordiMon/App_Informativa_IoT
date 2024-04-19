@@ -11,6 +11,7 @@ class DetailsFago : Fragment() {
     companion object {
         const val ARG_NAME = "name"
         const val ARG_DESCRIPTION = "description"
+        const val ARG_IMAGE_RES_ID = "imageResId"
     }
 
     private var name: String? = null
@@ -26,13 +27,13 @@ class DetailsFago : Fragment() {
         }
     }
 
-    private fun getImageResIdForComponent(name: String?): Int? {
-        return when (name) {
-            "Sensor de temperatura" -> R.drawable.temperature
-            "Sensor de humedad" -> R.drawable.humedad
-            "Actuador de luz" -> R.drawable.luces
-            "Cámara IP" -> R.drawable.ipcamera
-            "Controlador de puerta" -> R.drawable.door
+    private fun getImageResIdForComponent(componentName: String?): Int? {
+        return when (componentName) {
+            getString(R.string.temperature_sensor_title) -> R.drawable.temperature
+            getString(R.string.humidity_sensor_title) -> R.drawable.humedad
+            getString(R.string.light_actuator_title) -> R.drawable.luces
+            getString(R.string.ip_camera_title) -> R.drawable.ipcamera
+            getString(R.string.door_controller_title) -> R.drawable.door
             else -> null
         }
     }
@@ -48,7 +49,10 @@ class DetailsFago : Fragment() {
 
         nameTextView.text = name
         descriptionTextView.text = description
-        imageResId?.let { componentImageView.setImageResource(it) }
+
+        imageResId?.let {
+            componentImageView.setImageResource(it)
+        }
 
         return view
     }

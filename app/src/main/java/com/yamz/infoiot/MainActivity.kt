@@ -13,13 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val fragmentManager: FragmentManager = supportFragmentManager
 
-        val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
-
-        val advComponentsFragment = AdvComponents()
-        fragmentTransaction.add(R.id.fragment_container, advComponentsFragment)
-
-        fragmentTransaction.commit()
     }
 }

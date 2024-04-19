@@ -91,4 +91,24 @@ A male-to-male cable is a cable that has the same type of connector at both ends
     <string name="arduino_nano_rp2040_connect_name">Arduino Nano RP2040 Connect</string>
     <string name="arduino_nano_rp2040_connect_description">Board based on the RP2040 chip from Raspberry Pi. Arduino Nano RP2040 Connect is a development board that uses the RP2040 chip from Raspberry Pi. It offers powerful performance and is ideal for projects that require advanced processing capability.</string>
 
+
+
+    <!-- COMPONENTES AVANZADOS -->
+
+    <string name="temperature_sensor_title">Temperature Sensor</string>
+    <string name="temperature_sensor_description">The temperature sensor is an electronic device that measures ambient temperature and provides accurate real-time data. This sensor is essential in industrial, commercial, and residential applications. In industry, it is used to monitor and control critical processes that require specific thermal conditions. In commercial and residential environments, it helps manage heating, ventilation, and air conditioning systems to ensure comfort and energy efficiency.</string>
+
+    <string name="humidity_sensor_title">Humidity Sensor</string>
+    <string name="humidity_sensor_description">The humidity sensor measures the relative humidity of the air and is essential for controlling air quality in various environments. In agriculture, it is used in greenhouses to monitor and regulate humidity conditions to optimize plant growth. It is also essential in laboratories and storage spaces to maintain stable environmental conditions that preserve the integrity of sensitive materials.</string>
+
+    <string name="light_actuator_title">Light Actuator</string>
+    <string name="light_actuator_description">The light actuator allows remote or automatic control of lighting intensity. This device is an integral part of intelligent lighting systems that offer flexibility and energy efficiency. It can be programmed to adjust the light intensity according to the user\'s specific needs, environmental conditions, or lighting preferences. Additionally, it can be integrated with other smart devices to create customized and automated lighting scenarios.</string>
+
+    <string name="ip_camera_title">IP Camera</string>
+    <string name="ip_camera_description">The IP camera is an advanced surveillance system that offers remote monitoring with high-resolution imaging. These cameras are ideal for security applications in homes, businesses, and public spaces. They offer features such as motion detection, night vision, and continuous or event-based recording. Additionally, they allow real-time access to images from any device with an Internet connection, providing peace of mind and total control over the monitored environment.</string>
+
+    <string name="door_controller_title">Door Controller</string>
+    <string name="door_controller_description">The electronic door controller is a security device that manages access to an entrance using secure authentication methods. It can be used in residences, office buildings, and industrial facilities to provide an additional level of protection. Modern door controllers offer multiple authentication options such as passwords, RFID cards, and facial or fingerprint recognition. This allows adapting the security level to the specific needs of each application.</string>
+
+    <!-- COMPONENTES AVANZADOS -->
 </resources>
