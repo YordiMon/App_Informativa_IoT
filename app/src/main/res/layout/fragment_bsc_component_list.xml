@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="COMPONENTES BASICOS"
+            android:text="@string/basic_components"
             android:textAlignment="center"
             android:textSize="16sp"
             style="@style/title"
@@ -47,7 +47,7 @@
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estos son los componentes basicos."
+            android:text="@string/basic_components_description"
             style="@style/description"
             android:layout_marginBottom="16dp" />
 

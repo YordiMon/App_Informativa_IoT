@@ -42,27 +42,45 @@ class BscComponentListFragment : Fragment() {
         bscComponentList = listOf(
             BscComponentList(
                 1,
-                "machomacho",
-                getString(R.string.maleToMale),
-                getString(R.string.maleToMaleDescription),
+                "lcd",
+                getString(R.string.lcd_display_title),
+                getString(R.string.lcd_display_description),
             ),
             BscComponentList(
                 2,
-                "machohembra",
-                getString(R.string.maleToFemale),
-                getString(R.string.maleToFemaleDescription)
+                "sensordemovimiento",
+                getString(R.string.motion_sensor_title),
+                getString(R.string.motion_sensor_description)
             ),
             BscComponentList(
                 3,
-                "hembrahembra",
-                getString(R.string.femaleToFemale),
-                getString(R.string.femaleToFemaleDescription)
+                "fotorresistencia",
+                getString(R.string.ldr_title),
+                getString(R.string.ldr_description)
             ),
             BscComponentList(
                 4,
-                "puente",
-                getString(R.string.jumper),
-                getString(R.string.jumperDescription),
+                "led",
+                getString(R.string.led_title),
+                getString(R.string.led_description),
+            ),
+            BscComponentList(
+                5,
+                "buzzer",
+                getString(R.string.buzzer_title),
+                getString(R.string.buzzer_description),
+            ),
+            BscComponentList(
+                6,
+                "detectorluzoscuridad",
+                getString(R.string.light_dark_sensor_title),
+                getString(R.string.light_dark_sensor_description),
+            ),
+            BscComponentList(
+                7,
+                "sensorultrasonico",
+                getString(R.string.ultrasonic_sensor_title),
+                getString(R.string.ultrasonic_sensor_description),
             ),
         )
     }
