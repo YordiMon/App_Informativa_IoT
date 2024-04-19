@@ -6,6 +6,8 @@
 
     <style name="background"><item name="android:background">@color/black</item></style>
     <style name="cardBackground"><item name="android:background">@color/darkGrey</item></style>
+    <style name="toolbarBackground"><item name="android:background">#1C1C1C</item></style>
+    <style name="toolbarLine"><item name="android:background">#3D3D3D</item></style>
 
     <style name="title">
         <item name="android:textStyle">bold</item>

@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/wireDetailFragment"
-        android:name="com.yamz.infoiot.WireDetailFragment"
+        android:name="com.yamz.infoiot.cables.WireDetailFragment"
         android:label="fragment_wire_detail"
         tools:layout="@layout/fragment_wire_detail" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/wireListFragment"
-        android:name="com.yamz.infoiot.WireListFragment"
+        android:name="com.yamz.infoiot.cables.WireListFragment"
         android:label="fragment_wire_list"
         tools:layout="@layout/fragment_wire_list" >
         <action
@@ -45,7 +45,7 @@
 
     <fragment
         android:id="@+id/arduinoListFragment"
-        android:name="com.yamz.infoiot.ArduinoListFragment"
+        android:name="com.yamz.infoiot.arduino.ArduinoListFragment"
         android:label="fragment_arduino_list"
         tools:layout="@layout/fragment_arduino_list" >
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/arduinoDetailsFragment"
-        android:name="ArduinoDetailsFragment"
+        android:name="com.yamz.infoiot.arduino.ArduinoDetailsFragment"
         android:label="ArduinoDetailsFragment" >
         <action
             android:id="@+id/action_arduinoDetailsFragment_to_arduinoListFragment"

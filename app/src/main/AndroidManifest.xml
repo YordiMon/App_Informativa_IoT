@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icono_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.InfoIoT"
+        android:theme="@style/Base.Theme.InfoIoT"
         tools:targetApi="31">
         <activity android:name=".MainActivity"
             android:exported="true">

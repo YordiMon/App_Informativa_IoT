@@ -1,6 +1,4 @@
-package com.yamz.infoiot
-import ArduinoAdapter
-import ArduinoDetailsFragment
+package com.yamz.infoiot.arduino
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +7,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.navigation.fragment.findNavController
+import com.yamz.infoiot.R
+
 class ArduinoListFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView

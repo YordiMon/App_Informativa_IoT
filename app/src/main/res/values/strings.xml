@@ -3,18 +3,22 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="cables">
-        "
-Cables are essential components of computer systems, providing the necessary physical connections that enable seamless communication and functionality among various hardware peripherals and components.
-        "
-    </string>
+    <string name="homeDescription">Select one of the following elements to see his information!</string>
+
+    <string name="cables">"Cables are essential components of computer systems, providing the necessary physical connections that enable seamless communication and functionality among various hardware peripherals and components."</string>
+    <string name="arduinos">"Arduino is an open-source hardware and software platform known for its simplicity and versatility. It consists of a programmable circuit board equipped with a microcontroller and an easy-to-use development environment."</string>
 
     <string name="maleToMale">MALE TO MALE</string>
-    <string name="maleToMaleDescription">
-        "
-A male-to-male cable is a cable that has the same type of connector at both ends, that is, the \'male' connector. These cables are used to connect devices that have the same type of port or connector, thus requiring a direct connection between them without the need for additional adapters or cables.\n\nFor example, a male-to-male Ethernet cable is used to directly connect two network devices, such as two computers or a computer and a router, without the need for a network switch or hub. Similarly, a male-to-male HDMI cable is used to directly connect two HDMI devices, such as a Blu-ray player to a television, without the need for an adapter.\n\nIn summary, male-to-male cables are useful when you need a direct connection between two devices that have the same type of port or connector.
-        "
-    </string>
+    <string name="maleToMaleDescription">"A male-to-male cable is a cable that has the same type of connector at both ends, that is, the \'male' connector. These cables are used to connect devices that have the same type of port or connector, thus requiring a direct connection between them without the need for additional adapters or cables.\n\nFor example, a male-to-male Ethernet cable is used to directly connect two network devices, such as two computers or a computer and a router, without the need for a network switch or hub. Similarly, a male-to-male HDMI cable is used to directly connect two HDMI devices, such as a Blu-ray player to a television, without the need for an adapter.\n\nIn summary, male-to-male cables are useful when you need a direct connection between two devices that have the same type of port or connector."</string>
+
+    <string name="maleToFemale">MALE TO FEMALE</string>
+    <string name="maleToFemaleDescription">"A male-to-female cable has a male connector at one end and a female connector at the other end. It is used to connect devices that have different types of ports or connectors, enabling connection between them.\n\nFor example, a male-to-female USB cable is used to connect a USB device, such as a printer or a camera, to a USB port on a computer. The male end of the cable is plugged into the USB port on the computer, while the female end is plugged into the USB port on the device.\n\nAnother common example is a male-to-female headphone extension cable, which is used to extend the length of headphones. The male end of the cable is plugged into the headphone jack, while the female end is used to connect the headphones to the audio device, such as a phone or a computer."</string>
+
+    <string name="femaleToFemale">FEMALE TO FEMALE</string>
+    <string name="femaleToFemaleDescription">"A female-to-female cable is a cable that has \"female\" connectors on both ends. These cables are used to connect two devices that have ports or connectors of the same type and gender. They are typically used in situations where a direct extension or connection between two male cables is needed, without the need for additional adapters.\n\nFor example, a female-to-female USB cable could be used to connect two male USB cables together to extend the connection distance without the need for an additional adapter or connector. Similarly, a female-to-female audio cable can be used to connect two male audio cables, extending the length of the connection for audio devices.\n\nFemale-to-female cables are useful when a direct connection between two male cables of the same type and gender is needed, without the need for additional adapters."</string>
+
+    <string name="jumper"></string>
+    <string name="jumperDescription">"A jumper cable, in the context of electronics and computing, is a short cable used to establish a direct connection between two points, such as pins, terminals, or connectors in a circuit, device, or system. These cables generally have identical connectors at both ends and are used for purposes such as hardware setup, interconnection of components within a system, or to facilitate testing and diagnostics.\n\nFor example, on a breadboard or protoboard, a jumper cable could be used to connect two nearby contact points to establish a temporary electrical connection. In electronics, jumper cables are also used to connect the pins of a microcontroller or integrated circuit to other components in a circuit.\n\nIn summary, jumper cables are versatile and useful tools in electronics and computing, used to establish temporary or permanent connections between specific points in a circuit or system."</string>
 
     <string name="arduino_uno_name">Arduino Uno</string>
     <string name="arduino_uno_description">Basic development board. Arduino Uno is a development board that features an ATmega328P microcontroller. It is ideal for basic electronics and programming projects.</string>

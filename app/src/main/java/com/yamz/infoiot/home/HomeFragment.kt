@@ -8,8 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.yamz.infoiot.R
-import com.yamz.infoiot.WireList
-import com.yamz.infoiot.WireListAdapter
 
 class HomeFragment : Fragment() {
 
