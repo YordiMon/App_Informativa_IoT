@@ -32,5 +32,4 @@ Las resistencias de 6 bandas son especialmente útiles en aplicaciones donde se 
     <string name="colorvalue2">Los valores preferentes de resistencia son los que más se utilizan en la práctica. Estos incluyen las resistencias de 1, 2.2, 4.7, 10, 22, 47, 100, 220, 470, 1k, 2.2k, 4.7k, 10k, 22k, 47k, 100k, 220k, 470k, 1M, 2.2M y 4.7M ohmios. Cada uno de estos valores de resistencia,</string>
 
 
-
 </resources>
