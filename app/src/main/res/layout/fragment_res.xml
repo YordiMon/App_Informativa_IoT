@@ -63,33 +63,47 @@
         android:id="@+id/button"
         android:layout_width="394dp"
         android:layout_height="59dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="504dp" />
+        android:layout_marginTop="496dp"
+        android:text="Ir a Resistencias de 4 bandas"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="397dp"
         android:layout_height="50dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="616dp" />
+        android:text="Ir a Resistencias de 5 bandas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="397dp"
         android:layout_height="59dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="666dp" />
+        android:text="Ir a Resistencias de 6 bandas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="395dp"
         android:layout_height="53dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="563dp" />
+        android:text="Resistencias valores y colores"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
