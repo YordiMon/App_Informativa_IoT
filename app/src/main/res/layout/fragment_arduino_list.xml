@@ -54,6 +54,7 @@ style="@style/background">
         android:layout_height="wrap_content"
         android:hint="Buscar..."
         android:inputType="text"
+        android:textColorHint="@color/black"
         android:imeOptions="actionSearch"
         android:drawableRight="@android:drawable/ic_menu_search"
         android:drawablePadding="8dp"
