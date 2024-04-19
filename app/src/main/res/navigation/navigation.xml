@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentRes">
+
+    <fragment
+        android:id="@+id/fragmentRes"
+        android:name="com.yamz.infoiot.FragmentResistors"
+        android:label="fragment_res"
+        tools:layout="@layout/fragment_res" >
+        <action
+            android:id="@+id/action_fragmentRes_to_fragmentResistors4"
+            app:destination="@id/fragmentResistors4" />
+        <action
+            android:id="@+id/action_fragmentRes_to_fragmentResistor5"
+            app:destination="@id/fragmentResistor5" />
+        <action
+            android:id="@+id/action_fragmentRes_to_fragmentResistors6"
+            app:destination="@id/fragmentResistors6" />
+        <action
+            android:id="@+id/action_fragmentRes_to_fragmentResistorsColors"
+            app:destination="@id/fragmentResistorsColors" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResistorsColors"
+        android:name="com.yamz.infoiot.FragmentResistorsColors"
+        android:label="fragment_resistors_colors"
+        tools:layout="@layout/fragment_resistors_colors" >
+        <action
+            android:id="@+id/action_fragmentResistorsColors_to_fragmentRes"
+            app:destination="@id/fragmentRes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResistor5"
+        android:name="com.yamz.infoiot.FragmentResistor5"
+        android:label="fragment_resistor5"
+        tools:layout="@layout/fragment_resistor5" >
+        <action
+            android:id="@+id/action_fragmentResistor5_to_fragmentRes"
+            app:destination="@id/fragmentRes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResistors6"
+        android:name="com.yamz.infoiot.FragmentResistors6"
+        android:label="fragment_resistors6"
+        tools:layout="@layout/fragment_resistors6" >
+        <action
+            android:id="@+id/action_fragmentResistors6_to_fragmentRes"
+            app:destination="@id/fragmentRes" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentResistors4"
+        android:name="com.yamz.infoiot.FragmentResistors4"
+        android:label="fragment_resistors4"
+        tools:layout="@layout/fragment_resistors4" >
+        <action
+            android:id="@+id/action_fragmentResistors4_to_fragmentRes"
+            app:destination="@id/fragmentRes" />
+    </fragment>
+</navigation>

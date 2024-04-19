@@ -2,38 +2,34 @@
     <string name="app_name">InfoIoT</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="resistor_info">Las resistencias son componentes electrónicos pasivos que introducen una resistencia eléctrica específica en un circuito, controlando así el flujo de corriente, limitando la corriente o dividiendo el voltaje. Se caracterizan por una amplia variedad de valores de resistencia, potencias nominales y tolerancias para adaptarse a diversas aplicaciones.\n\nAspectos clave sobre las resistencias incluyen:\n\nValor de resistencia (Ohmios): Determina la oposición al flujo de corriente y se mide en ohmios (Ω). Puede calcularse usando la Ley de Ohm. Algunas resistencias tienen valores ajustables, como potenciómetros o resistencias variables.\n\nPotencia nominal (vatios): Indica la energía que la resistencia puede disipar sin dañarse. Las resistencias con valores más altos pueden manejar corrientes mayores sin calentarse excesivamente.\n\nTolerancia: Especifica la variación permisible en el valor nominal de la resistencia. Por ejemplo, una tolerancia del 5% permite una variación del 5% hacia arriba o hacia abajo desde su valor nominal.\n\nTipo de montaje: Las resistencias vienen en diferentes formatos de montaje, como montaje en superficie (SMD) o montaje de orificio pasante, permitiendo su integración en diversas placas de circuito.\n\nPara identificar el valor de resistencia en resistencias de orificio pasante, se utiliza un código de colores en las bandas del cuerpo de la resistencia.</string>
-    <string name="resistor_color">Los colores de las bandas en las resistencias se utilizan para indicar su valor, tolerancia y, en algunos casos, su coeficiente de temperatura.
+    <string name="resistor_4bands">
+Las resistencias de 4 bandas son un tipo común de resistencias utilizadas en circuitos electrónicos. Cada banda en una resistencia de 4 bandas tiene un significado específico:\n\n
 
-Bandas de Valor:
-Primera y segunda banda: Indican los dígitos significativos del valor de resistencia.
-Tercera banda: Indica el factor de multiplicación (número de ceros que se agregan al valor).
-Cuarta banda (opcional): Indica la tolerancia del valor de la resistencia.
-Bandas de Tolerancia:
-Se encuentran en resistencias de precisión para indicar la tolerancia del valor de resistencia.
-Los colores comunes para la tolerancia son: dorado (5%), plateado (10%) y ninguno (20%).
-Bandas de Coeficiente de Temperatura (en resistencias de película metálica):
-Indican cómo cambia la resistencia con la temperatura.
-Los colores comunes para el coeficiente de temperatura son: marrón (100 ppm/K), rojo (50 ppm/K), verde (25 ppm/K), azul (10 ppm/K), y violeta (5 ppm/K).</string>
+Primer banda: Esta banda indica el primer dígito del valor de resistencia. Por ejemplo, si la banda es de color marrón, el primer dígito es 1.\n\n
+
+Segunda banda: Esta banda indica el segundo dígito del valor de resistencia. Si la banda es roja, el segundo dígito es 2.\n\n
+
+Tercera banda: Esta banda indica el factor de multiplicación o el número de ceros que siguen a los dos primeros dígitos. Por ejemplo, si la banda es amarilla, significa que hay 4 ceros después de los dos primeros dígitos, multiplicando así el valor de la resistencia por 10,000.\n\n
+
+Cuarta banda: Esta banda indica la tolerancia de la resistencia, es decir, qué tan cerca del valor nominal puede estar la resistencia. Por ejemplo, si la banda es dorada, la tolerancia es del 5%.\n\n
+
+Estas resistencias son importantes en electrónica para proporcionar una cantidad específica de resistencia eléctrica en un circuito. Es esencial leer y comprender el código de colores en estas resistencias para determinar su valor y tolerancia.\n\n
+</string>
+
+    <string name="resistor_5bands">Las resistencias de 5 bandas son otro tipo común de resistencias utilizadas en circuitos electrónicos, similares a las de 4 bandas pero con una mayor precisión. Cada banda en una resistencia de 5 bandas tiene un significado específico:\n\n1. Primer banda: Esta banda indica el primer dígito del valor de resistencia.\n\n2. Segunda banda: Esta banda indica el segundo dígito del valor de resistencia.\n\n3. Tercera banda: Esta banda indica el tercer dígito del valor de resistencia, que representa el número de ceros que siguen a los dos primeros dígitos.\n\n4. Cuarta banda: Esta banda indica el coeficiente de temperatura, que muestra cómo cambia la resistencia con la temperatura.\n\n5. Quinta banda: Esta banda indica la tolerancia de la resistencia, es decir, qué tan cerca del valor nominal puede estar la resistencia.\n\nLas resistencias de 5 bandas proporcionan una mayor precisión y pueden manejar una gama más amplia de valores de resistencia en comparación con las de 4 bandas. Son comúnmente utilizadas en aplicaciones donde se requiere una precisión alta, como en equipos de medición y circuitos de control. Es esencial interpretar correctamente el código de colores en estas resistencias para determinar su valor y características.</string>
 
 
+    <string name="resistor_6bands">Las resistencias de 6 bandas son otro tipo de resistencias utilizadas en circuitos electrónicos, que ofrecen una precisión aún mayor que las de 5 bandas. Cada banda en una resistencia de 6 bandas tiene un significado específico:\n\n 1. Primer banda: Indica el primer dígito del valor de resistencia\n\n.
+2. Segunda banda: Indica el segundo dígito del valor de resistencia\n\n.
+3. Tercera banda: Indica el tercer dígito del valor de resistencia, que representa el número de ceros que siguen a los dos primeros dígitos\n\n.
+4. Cuarta banda: Indica el multiplicador, que representa cómo se escala el valor de resistencia\n\n.
+5. Quinta banda: Indica el coeficiente de temperatura, que muestra cómo cambia la resistencia con la temperatura\n\n.
+6. Sexta banda: Indica la tolerancia de la resistencia, es decir, qué tan cerca del valor nominal puede estar la resistencia\n\n.
 
-
-
-    <string-array name="resistor_colorss">
-        <item>Negro</item>
-        <item>Marrón</item>
-        <item>Rojo</item>
-        <item>Naranja</item>
-        <item>Amarillo</item>
-        <item>Verde</item>
-        <item>Azul</item>
-        <item>Violeta</item>
-        <item>Gris</item>
-        <item>Blanco</item>
-    </string-array>
-
+Las resistencias de 6 bandas son especialmente útiles en aplicaciones donde se requiere una precisión muy alta y una estabilidad térmica. Son comunes en equipos de medición de alta precisión y en circuitos de control críticos. Interpretar correctamente el código de colores en estas resistencias es esencial para determinar con precisión su valor y tolerancia.</string>
+    <string name="colorvalue">La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico. La resistencia se mide en ohmios, que se simbolizan con la letra griega omega (Ω). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió la relación entre voltaje, corriente y resistencia.</string>
+    <string name="colorvalue2">Los valores preferentes de resistencia son los que más se utilizan en la práctica. Estos incluyen las resistencias de 1, 2.2, 4.7, 10, 22, 47, 100, 220, 470, 1k, 2.2k, 4.7k, 10k, 22k, 47k, 100k, 220k, 470k, 1M, 2.2M y 4.7M ohmios. Cada uno de estos valores de resistencia,</string>
 
 
 
